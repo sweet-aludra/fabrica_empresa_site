@@ -10,7 +10,7 @@
     --cor4: #65575b;
     --cor5: #2c3137;
     --cor6: #1a364e;
-    --cor7: #162a40;
+    /*--cor7: #162a40;*/
 }/* Paleta de cor (variaveis)*/
 
 body{ 
@@ -39,7 +39,7 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: var(--cor7);
+    background-color: black;
     color: white;
     position: relative;
     bottom: 0;
@@ -151,8 +151,9 @@ button a{
 
 /*roda-pe config*/
 #empresa {
-    font-family: 'tan-pearl';
-    font-size: 15px;
+    font-family: 'horizon';
+    font-size: 25px;
+    letter-spacing: 4px;
     color: white;
 }
 #empresa:hover a{
