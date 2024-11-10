@@ -28,7 +28,6 @@ header{
 
 nav ul{
     gap: 30px;
-    margin-right: 15px;
 }
 
 h2 {
@@ -106,14 +105,11 @@ button a{
 #sobre1 {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     text-align: center;
+    gap: 20px;
 }
-
-#logoss {
-    display: flex;
-    justify-content: center;
-}
-#logoss img{
+#sobre1 img{
     border-radius: 20px 0px;
 }
 
@@ -210,7 +206,7 @@ button a{
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(6, 1fr); /*colunas(6) para as listas*/
+    grid-template-columns: repeat(2, 1fr); /*colunas(6) para as listas*/
     gap: 10px;
     list-style: none;
 }
@@ -218,7 +214,7 @@ button a{
 .nav-link{
     text-decoration: none;
     line-height: 30px;
-    font-size: 1.15rem;
+    font-size: 25px;
     color: #fff;
     font-weight: 400;
 }
@@ -237,7 +233,7 @@ button a{
 
 @media(max-width: 710px) {
     .nav-link{
-        font-size: 20pxpx;
+        font-size: 20px;
     }
     button {
         height: 45px;
@@ -248,7 +244,7 @@ button a{
         font-size: 25px;
     }
     .nav-list ul{
-        grid-template-columns: repeat(3, 1fr); /*quebra das li no menu*/
+        grid-template-columns: repeat(2, 1fr); /*quebra das li no menu*/
     }
     .secao1 {
         font-size: 18px;
@@ -259,7 +255,7 @@ button a{
 }
 @media(max-width: 560px) {
     .nav-link{
-        font-size: 10px;
+        font-size: 15px;
     }
     #sobre1 {
         flex-direction: column;
