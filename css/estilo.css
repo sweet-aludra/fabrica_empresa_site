@@ -145,6 +145,30 @@ button a{
     transform: translateY(-50%);
 }
 
+/* comentarios */
+#comentarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#comentarios textarea{
+    background-color: #65575b;
+    color: white;
+    border: 2px outset #1a364e;
+    text-align: center;
+    font-size: 20px;
+}
+textarea::placeholder{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+#comentarios label{
+    color: #c35155;
+    font-size: 25px;
+}
+
 /*roda-pe config*/
 #empresa {
     font-family: 'horizon';
@@ -207,7 +231,7 @@ button a{
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(2, 1fr); /*colunas(6) para as listas*/
-    gap: 10px;
+    gap: 15px;
     list-style: none;
 }
 
