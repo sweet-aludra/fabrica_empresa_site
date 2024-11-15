@@ -44,7 +44,7 @@ footer {
     bottom: 0;
     width: 100%;
     margin: auto auto;
-    padding: 10px 5px;
+    padding: 10px 2px;
 }
 footer p{
     margin-left: 15px;
@@ -260,7 +260,7 @@ textarea::placeholder{
     #cores li{
         width: 100px;
     }
-    
+
     #participantes div{
         flex-direction: row;
         align-items: center;
