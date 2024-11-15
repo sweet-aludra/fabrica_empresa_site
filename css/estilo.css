@@ -11,11 +11,12 @@
     --cor5: #2c3137;
     --cor6: #1a364e;
     /*--cor7: #162a40;*/
+    --fundo: #fcffe8;
 }/* Paleta de cor (variaveis)*/
 
 body{ 
     color:black;
-    background-color: #fcffe8;
+    background-color: var(--fundo);
     font-family:  Arial, Helvetica;
     font-size: small;
 }
@@ -23,7 +24,7 @@ body{
 header{
     text-align: center;
     background-color: black;
-    box-shadow: 0px 3px 10px #464646;
+    box-shadow: 0px 3px 10px var(--cor4);
 }
 
 nav ul{
@@ -74,7 +75,7 @@ button{
 }/*transiçao de cor do botao*/
 button a{
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-weight: 500;
     font-size: 1.1rem;
 }
@@ -170,7 +171,7 @@ button a{
 #comentarios textarea{
     background: linear-gradient(180deg, var(--cor4), var(--cor3));
     color: white;
-    border: 2px outset #1a364e;
+    border: 2px outset var(--cor6);
     text-align: center;
     max-width: 600px;
     height: 100px;
@@ -182,7 +183,7 @@ textarea::placeholder{
     text-align: center;
 }
 #comentarios label{
-    color: #c35155;
+    color: var(--cor2);
     font-size: 25px;
 }
 /* From Uiverse.io by PriyanshuGupta28 */ 
@@ -195,7 +196,7 @@ textarea::placeholder{
 #rating label {
     float: right;
     cursor: pointer;
-    color: #ccc;
+    color: var(--cor4);
     transition: color 0.3s;
 }
 #rating label:before {
@@ -312,7 +313,7 @@ textarea::placeholder{
     text-decoration: none;
     line-height: 30px;
     font-size: 25px;
-    color: #fff;
+    color: white;
     font-weight: 400;
 }
 .nav-link:hover{
