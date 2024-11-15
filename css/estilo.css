@@ -60,6 +60,7 @@ ul {
     list-style: none;
 }
 
+
 button{
     border: var(--cor1) solid 1px;
     background-color: black;
@@ -113,6 +114,10 @@ button a{
     border-radius: 20px 0px;
 }
 
+#cores li{
+    width: 120px;
+    border-radius: 0px 20px;
+}
 #cores ul{
     display: grid;
     text-align: center;
@@ -124,6 +129,11 @@ button a{
 
 #participantes{
     color: white;
+}
+#participantes h1{
+    color: var(--cor6);
+    font-size: 25px;
+    transform: translateY(-130%);
 }
 #participantes h2{
     text-align: center;
@@ -143,6 +153,14 @@ button a{
     border-radius: 50%;
     border-left: 7px solid var(--cor2);
     transform: translateY(-50%);
+}
+#Plista { /* estilizando a lista dos participantes */
+    color: white;
+    font-size: 20px;
+}
+.plista::before {
+    content: '❁';
+    color: var(--cor1);
 }
 
 /* comentarios */
@@ -210,7 +228,7 @@ textarea::placeholder{
     }
     #cores {
         display: flex;
-       justify-content: center; 
+        justify-content: center; 
     }
 
     /* comentarios */
@@ -239,6 +257,10 @@ textarea::placeholder{
 
 }
 @media(max-width: 600px){
+    #cores li{
+        width: 100px;
+    }
+    
     #participantes div{
         flex-direction: row;
         align-items: center;
@@ -247,6 +269,14 @@ textarea::placeholder{
     }
     #participantes img{
         transform: translateY(-30%);
+    }
+    #participantes h1{
+        color: var(--cor1);
+        font-size: 15px;
+        transform: translateY(-20%);
+    }
+    #Plista {
+        font-size: 15px;
     }
 
     /* comentarios */
